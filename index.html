@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#7A1C1C">
+  <title>Chandel Family | Griha Pravesh & Akhand Ramayan</title>
+  <meta name="description" content="The Chandel Family warmly invites you to the auspicious Griha Pravesh, Akhand Ramayan and Shivansh's birthday celebrations on 10 & 11 March 2027.">
+  <!-- After deployment, replace the placeholder URL below with your canonical Vercel URL. -->
+  <link rel="canonical" href="https://YOUR-VERCEL-DOMAIN.vercel.app/">
+  <meta property="og:title" content="Chandel Family | Griha Pravesh & Akhand Ramayan">
+  <meta property="og:description" content="With blessings and joy, the Chandel Family invites you to celebrate our new home, Akhand Ramayan and Shivansh's birthday.">
+  <meta property="og:type" content="website">
+  <!-- Replace YOUR-VERCEL-DOMAIN after deployment. Use the local preview image file below. -->
+  <meta property="og:url" content="https://YOUR-VERCEL-DOMAIN.vercel.app/">
+  <meta property="og:image" content="https://YOUR-VERCEL-DOMAIN.vercel.app/assets/images/og-preview.jpg">
+  <meta property="og:image:alt" content="Royal Indian invitation for Chandel Family celebrations">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Chandel Family | Griha Pravesh & Akhand Ramayan">
+  <meta name="twitter:description" content="10 & 11 March 2027 — Griha Pravesh, Akhand Ramayan and Shivansh's birthday.">
+  <meta name="twitter:image" content="https://YOUR-VERCEL-DOMAIN.vercel.app/assets/images/og-preview.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&family=Noto+Serif+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient-pattern" aria-hidden="true"></div>
+
+  <!-- Opening splash: invitation content is revealed only after the tap (also enables audio on mobile). -->
+  <section class="splash" id="splash" aria-label="Invitation opening">
+    <div class="splash-frame">
+      <div class="invocation hindi" data-i18n="invocation">॥ श्री गणेशाय नमः ॥</div>
+      <svg class="ganesh-mark" viewBox="0 0 120 120" role="img" aria-label="Decorative sacred motif">
+        <path d="M60 15 C43 15 30 29 30 46 C30 61 41 70 51 73 C39 78 34 88 42 99 C51 108 69 107 77 96 C82 88 77 81 70 78 C88 75 94 61 91 47 C88 29 75 15 60 15Z" fill="none" stroke="currentColor" stroke-width="2"/>
+        <path d="M49 40 Q60 28 71 40 M48 50 Q60 58 72 50 M60 55 Q63 70 53 80 Q45 86 52 92 M68 63 Q78 64 81 73 M39 46 Q25 38 25 53 Q28 64 41 62 M81 45 Q96 38 96 53 Q92 64 80 62" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="60" cy="23" r="3" fill="currentColor"/>
+      </svg>
+      <p class="splash-subtitle" data-i18n="splashSubtitle">Chandel Family Cordially Invites You</p>
+      <h1 class="splash-family">CH A N D E L</h1>
+      <button class="open-button" id="openInvitation">
+        <span data-i18n="splashButton">Open Invitation</span><span class="button-arrow" aria-hidden="true">✦</span>
+      </button>
+      <div class="splash-bottom-ornament" aria-hidden="true">❧ ✧ ❧</div>
+    </div>
+  </section>
+
+  <main class="invitation-card" id="invitation" aria-hidden="true">
+    <div class="card-outer-border">
+      <div class="corner corner-tl">❧</div><div class="corner corner-tr">❧</div>
+      <div class="corner corner-bl">❧</div><div class="corner corner-br">❧</div>
+      <header class="control-bar">
+        <div class="invocation hindi" data-i18n="invocation">॥ श्री गणेशाय नमः ॥</div>
+        <div class="controls">
+          <div class="language-switch" role="group" aria-label="Language">
+            <button class="lang-button active" data-lang="en" aria-pressed="true">English</button>
+            <span aria-hidden="true">|</span>
+            <button class="lang-button" data-lang="hi" aria-pressed="false">हिंदी</button>
+          </div>
+          <button class="music-toggle" id="musicToggle" aria-label="Mute devotional flute" title="Mute / Unmute flute">
+            <span class="music-bars" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+            <span class="music-label">♫</span>
+          </button>
+        </div>
+      </header>
+
+      <section class="hero reveal">
+        <div class="petal-field" aria-hidden="true"></div>
+        <div class="arch-ornament" aria-hidden="true">
+          <svg viewBox="0 0 320 380" class="arch-svg">
+            <path d="M14 366 V155 C14 67 78 14 160 14 S306 67 306 155 V366" fill="none" stroke="#C89B3C" stroke-width="2"/>
+            <path d="M25 366 V157 C25 75 85 26 160 26 S295 75 295 157 V366" fill="none" stroke="#C89B3C" stroke-width=".8"/>
+            <path d="M44 151 C44 85 94 43 160 43 C226 43 276 85 276 151 M50 151 Q65 132 78 151 Q91 170 104 151 Q117 132 130 151 Q143 170 156 151 Q169 132 182 151 Q195 170 208 151 Q221 132 234 151 Q247 170 270 151" fill="none" stroke="#C89B3C" stroke-width="1"/>
+            <g fill="#C89B3C"><circle cx="160" cy="15" r="4"/><circle cx="14" cy="366" r="4"/><circle cx="306" cy="366" r="4"/></g>
+          </svg>
+        </div>
+        <div class="hero-kicker" data-i18n="heroKicker">A New Beginning • Sacred Blessings</div>
+        <h1 data-i18n="heroTitle">Griha Pravesh &amp; Akhand Ramayan</h1>
+        <div class="gold-divider"><span>✧</span><i></i><span>❖</span><i></i><span>✧</span></div>
+        <p class="hero-message" data-i18n="heroMessage">With the blessings of the Almighty and our elders, the Chandel Family joyfully invites you and your family to grace the auspicious occasion of our new home.</p>
+        <div class="date-ribbon"><span class="date-icon">❋</span><p data-i18n="dates">10 &amp; 11 March 2027 • Wednesday &amp; Thursday</p><span class="date-icon">❋</span></div>
+
+        <!-- New home photo slot: replace assets/images/new-home.jpg. Missing image hides this entire frame. -->
+        <figure class="home-photo photo-slot">
+          <img src="assets/images/new-home.jpg" alt="Our new home" loading="lazy" onerror="this.closest('.photo-slot').hidden=true">
+          <figcaption data-i18n="homeCaption">Our new home, with gratitude and love</figcaption>
+        </figure>
+      </section>
+
+      <section class="family-blessings reveal">
+        <div class="section-label" data-i18n="blessingsHeading">With the Blessings of</div>
+        <h2 class="names" data-i18n="blessingsNames">Shri Hriday Narayan Singh &amp; Smt. Usha Devi</h2>
+        <div class="ornamental-divider">❧ ❖ ❧</div>
+        <div class="section-label" data-i18n="hostsHeading">Cordially Invited By</div>
+        <h2 class="names" data-i18n="hostsNames">Shri Ajeet Kumar Singh &amp; Smt. Nirmala Singh</h2>
+        <div class="ornamental-divider">✧ ❖ ✧</div>
+        <div class="section-label" data-i18n="sonsHeading">Awaiting Your Warm Presence</div>
+        <p class="sons-names" data-i18n="sonsNames">Ayush Kumar Singh &amp; Shivansh Singh</p>
+      </section>
+
+      <!-- Rama image slot: use a portrait crop. object-position: top center is set in CSS to protect face/crown. -->
+      <section class="ram-frame-section reveal">
+        <figure class="ram-arch photo-slot">
+          <div class="ram-image-wrap">
+            <img src="assets/images/lord-rama.jpg" alt="Lord Shri Rama" loading="lazy" onerror="this.closest('.photo-slot').hidden=true">
+            <div class="ram-image-aura" aria-hidden="true"></div>
+          </div>
+          <figcaption class="ram-caption hindi" data-i18n="ramaCaption">॥ Jai Shri Ram ॥</figcaption>
+        </figure>
+      </section>
+
+      <section class="schedule-section reveal">
+        <div class="section-label" data-i18n="scheduleHeading">Auspicious Celebrations</div>
+        <h2 class="section-title" data-i18n="scheduleHeading">Auspicious Celebrations</h2>
+        <div class="gold-divider"><span>✧</span><i></i><span>❖</span><i></i><span>✧</span></div>
+        <article class="event-card">
+          <div class="event-day">01</div>
+          <div class="event-copy">
+            <h3 data-i18n="day1Date">Wednesday, 10 March 2027</h3>
+            <p data-i18n="day1Events">Auspicious Griha Pravesh Puja | Shri Akhand Ramayan Path Aarambh</p>
+            <!-- Add Day 1 timings here when ready. No event times are shown currently. -->
+          </div>
+          <div class="diya" aria-hidden="true">🪔</div>
+        </article>
+        <article class="event-card">
+          <div class="event-day">02</div>
+          <div class="event-copy">
+            <h3 data-i18n="day2Date">Thursday, 11 March 2027</h3>
+            <p data-i18n="day2Events">Ramayan Path Samapan &amp; Havan | Grand Priti Bhoj (Feast)</p>
+            <!-- Add Day 2 timings here when ready. No event times are shown currently. -->
+          </div>
+          <div class="diya" aria-hidden="true">🪔</div>
+        </article>
+      </section>
+
+      <section class="birthday-section reveal">
+        <div class="birthday-card">
+          <div class="birthday-badge" data-i18n="birthdayBadge">A Double Celebration!</div>
+          <!-- Shivansh birthday photo slot: replace assets/images/shivansh-birthday.jpg. -->
+          <figure class="birthday-photo photo-slot">
+            <img src="assets/images/shivansh-birthday.jpg" alt="Shivansh Singh birthday portrait" loading="lazy" onerror="this.closest('.photo-slot').hidden=true">
+          </figure>
+          <div class="birthday-spark" aria-hidden="true">✧ ❋ ✧</div>
+          <h2 data-i18n="birthdayName">Shivansh Singh</h2>
+          <p data-i18n="birthdayText">11 March is also Shivansh Singh's Birthday. Join us to bless our new home and celebrate Shivansh's special day with joy and togetherness.</p>
+        </div>
+      </section>
+
+      <section class="gallery-section reveal" id="gallery" hidden>
+        <h2 class="section-title" data-i18n="galleryHeading">Glimpses &amp; Moments</h2>
+        <div class="gold-divider"><span>✧</span><i></i><span>❖</span><i></i><span>✧</span></div>
+        <div class="gallery-grid">
+          <!-- Add up to three photos: moments-1.jpg, moments-2.jpg, moments-3.jpg -->
+          <button class="gallery-item photo-slot" type="button" hidden><img src="assets/images/moments-1.jpg" alt="Family moment 1" loading="lazy" onerror="this.closest('.gallery-item').hidden=true"></button>
+          <button class="gallery-item photo-slot" type="button" hidden><img src="assets/images/moments-2.jpg" alt="Family moment 2" loading="lazy" onerror="this.closest('.gallery-item').hidden=true"></button>
+          <button class="gallery-item photo-slot" type="button" hidden><img src="assets/images/moments-3.jpg" alt="Family moment 3" loading="lazy" onerror="this.closest('.gallery-item').hidden=true"></button>
+        </div>
+      </section>
+
+      <section class="venue-section reveal">
+        <div class="venue-symbol" aria-hidden="true">⌖</div>
+        <div class="section-label" data-i18n="venueHeading">Venue</div>
+        <h2 class="venue-name" data-i18n="venueTitle">Chandel Residence</h2>
+        <p class="venue-address" data-i18n="venueAddress">Kha-103, 593/KN/103-A, Village Shakurpur, Lucknow, Uttar Pradesh – 226002</p>
+        <a class="call-button" href="tel:+919235228454"><span aria-hidden="true">☎</span><span data-i18n="callButton">Call +91 9235228454</span></a>
+      </section>
+
+      <section class="countdown-section reveal" aria-label="Countdown">
+        <div class="section-label" data-i18n="countdownHeading">Until the auspicious day</div>
+        <div class="countdown" id="countdown">
+          <div><strong id="days">000</strong><span data-i18n="daysLabel">Days</span></div>
+          <div><strong id="hours">00</strong><span data-i18n="hoursLabel">Hours</span></div>
+          <div><strong id="minutes">00</strong><span data-i18n="minutesLabel">Minutes</span></div>
+          <div><strong id="seconds">00</strong><span data-i18n="secondsLabel">Seconds</span></div>
+        </div>
+      </section>
+
+      <footer class="footer reveal">
+        <div class="footer-ornament" aria-hidden="true">❧ ❖ ❧</div>
+        <p class="footer-quote" data-i18n="footerQuote">Your gracious presence and blessings are our greatest gift.</p>
+        <p class="footer-signoff" data-i18n="footerSignoff">Warm Regards, Chandel Family</p>
+        <div class="footer-invocation hindi" data-i18n="invocation">॥ श्री गणेशाय नमः ॥</div>
+      </footer>
+    </div>
+  </main>
+
+  <!-- Lightbox for gallery images -->
+  <dialog class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close photo">×</button>
+    <img id="lightboxImage" alt="">
+  </dialog>
+
+  <!-- Local audio file: add assets/audio/devotional-flute.mp3. Starts only after the Open Invitation tap. -->
+  <audio id="flute" src="assets/audio/devotional-flute.mp3" loop preload="none"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
